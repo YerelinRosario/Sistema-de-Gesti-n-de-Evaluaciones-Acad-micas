@@ -1,0 +1,17 @@
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\bin\Debug\net8.0\EvaluacionesOnline.Infrastructure.deps.json
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\bin\Debug\net8.0\EvaluacionesOnline.Infrastructure.runtimeconfig.json
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\bin\Debug\net8.0\EvaluacionesOnline.Infrastructure.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\bin\Debug\net8.0\EvaluacionesOnline.Infrastructure.pdb
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\bin\Debug\net8.0\EvaluacionesOnline.Domain.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\bin\Debug\net8.0\EvaluacionesOnline.Domain.pdb
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.AssemblyInfo.cs
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\Evaluaci.0709FF58.Up2Date
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\refint\EvaluacionesOnline.Infrastructure.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.pdb
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\EvaluacionesOnline.Infrastructure.genruntimeconfig.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Infrastructure\obj\Debug\net8.0\ref\EvaluacionesOnline.Infrastructure.dll

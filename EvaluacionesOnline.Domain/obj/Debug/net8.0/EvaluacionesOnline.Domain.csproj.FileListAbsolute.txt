@@ -1,0 +1,14 @@
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\bin\Debug\net8.0\EvaluacionesOnline.Domain.deps.json
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\bin\Debug\net8.0\EvaluacionesOnline.Domain.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\bin\Debug\net8.0\EvaluacionesOnline.Domain.pdb
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.AssemblyInfoInputs.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.AssemblyInfo.cs
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.csproj.CoreCompileInputs.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\refint\EvaluacionesOnline.Domain.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.pdb
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\ref\EvaluacionesOnline.Domain.dll
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\bin\Debug\net8.0\EvaluacionesOnline.Domain.runtimeconfig.json
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.csproj.AssemblyReference.cache
+C:\Users\delia\source\repos\EvaluacionesOnline\EvaluacionesOnline.Domain\obj\Debug\net8.0\EvaluacionesOnline.Domain.genruntimeconfig.cache
