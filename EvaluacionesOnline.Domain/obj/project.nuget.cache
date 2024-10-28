@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nAokGcg7WQk=",
+  "dgSpecHash": "Wub1cDCc71E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj",
+  "projectFilePath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\delia\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\delia\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

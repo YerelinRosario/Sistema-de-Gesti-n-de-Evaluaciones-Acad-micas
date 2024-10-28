@@ -4066,11 +4066,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
       "projectName": "EvaluacionesOnline.Infrastructure",
-      "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\delia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4092,8 +4092,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
-              "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
+            "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
+              "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
             }
           }
         }

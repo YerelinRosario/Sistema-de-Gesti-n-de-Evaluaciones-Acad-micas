@@ -1,23 +1,36 @@
-using EvaluacionesOnline.Domain.Data;
+using EvaluacionesOnline.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-
+using EvaluacionesOnline.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar Swagger para la API
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Configurar el contexto de la base de datos
 builder.Services.AddDbContext<EvaluacionesOnlineDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Agregar el repositorio
+builder.Services.AddScoped<IEvaluacionRepository, EvaluacionRepository>();
 
-// Add services to the container.
-builder.Services.AddRazorPages();
+// Registrar los controladores
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configuración para desarrollo
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+// Configuración para producción
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -28,6 +41,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+// Mapeo de controladores de la API
+app.MapControllers();
 
 app.Run();

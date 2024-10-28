@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EvaluacionesOnline.Domain\EvaluacionesOnline.Domain.csproj" />
+    <ProjectReference Include="..\EvaluacionesOnline.Infrastructure\EvaluacionesOnline.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

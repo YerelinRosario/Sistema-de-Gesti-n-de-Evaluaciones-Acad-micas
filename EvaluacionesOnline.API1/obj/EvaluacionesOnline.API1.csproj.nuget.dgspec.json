@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj": {}
+    "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj": {
+    "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
+        "projectUniqueName": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
         "projectName": "EvaluacionesOnline.API1",
-        "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
+        "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
         "packagesPath": "C:\\Users\\delia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.API1\\obj\\",
+        "outputPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
-                "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
+              "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
+                "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
               },
-              "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj"
+              "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj"
               }
             }
           }
@@ -70,6 +70,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
             }
           },
           "imports": [
@@ -95,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
+    "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj",
         "projectName": "EvaluacionesOnline.Domain",
-        "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj",
+        "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj",
         "packagesPath": "C:\\Users\\delia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\obj\\",
+        "outputPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -176,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj": {
+    "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
         "projectName": "EvaluacionesOnline.Infrastructure",
-        "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\delia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -205,8 +209,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
-                "projectPath": "C:\\Users\\delia\\source\\repos\\EvaluacionesOnline\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
+              "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
+                "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
               }
             }
           }

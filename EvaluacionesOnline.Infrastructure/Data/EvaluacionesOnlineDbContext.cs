@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using EvaluacionesOnline.Domain.Entities;
 
-namespace EvaluacionesOnline.Domain.Data
+namespace EvaluacionesOnline.Infrastructure.Data
 {
     public class EvaluacionesOnlineDbContext : DbContext
     {

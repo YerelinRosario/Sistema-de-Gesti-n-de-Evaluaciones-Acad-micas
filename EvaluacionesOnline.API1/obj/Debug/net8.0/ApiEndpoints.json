@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Evaluaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
+    "Method": "Create",
+    "RelativePath": "api/Evaluaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluacion",
+        "Type": "EvaluacionesOnline.Domain.Entities.Evaluacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
+    "Method": "GetById",
+    "RelativePath": "api/Evaluaciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
+    "Method": "Update",
+    "RelativePath": "api/Evaluaciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "evaluacion",
+        "Type": "EvaluacionesOnline.Domain.Entities.Evaluacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
+    "Method": "Delete",
+    "RelativePath": "api/Evaluaciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
