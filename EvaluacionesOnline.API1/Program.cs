@@ -4,36 +4,43 @@ using EvaluacionesOnline.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar Swagger para la API
+// Configuración de Swagger para la documentación de la API
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var Configuration = builder.Configuration;
+
 // Configurar el contexto de la base de datos
 builder.Services.AddDbContext<EvaluacionesOnlineDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(
+        Configuration.GetConnectionString("DefaultConnection"),
+        b => b.MigrationsAssembly("EvaluacionesOnline.Infrastructure")  // Especifica el ensamblado de migraciones
+    ));
 
-// Agregar el repositorio
+
+// Registro de repositorios y servicios de la aplicación
 builder.Services.AddScoped<IEvaluacionRepository, EvaluacionRepository>();
 
-// Registrar los controladores
+// Configuración de los controladores para la API
 builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configuración para desarrollo
+// Configuración específica para el entorno de desarrollo
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// Configuración para producción
+// Configuración específica para el entorno de producción
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
 
+// Middlewares de la aplicación
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -41,7 +48,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-// Mapeo de controladores de la API
+// Mapear los controladores de la API
 app.MapControllers();
 
+app.MapGet("/", () => "La API de EvaluacionesOnline está funcionando correctamente.");
+
+
+// Ejecutar la aplicación
 app.Run();

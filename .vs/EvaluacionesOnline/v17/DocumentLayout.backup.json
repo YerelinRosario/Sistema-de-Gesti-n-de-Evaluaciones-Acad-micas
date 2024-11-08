@@ -7,12 +7,56 @@
       "RelativeMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|solutionrelative:evaluacionesonline.api1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.api1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|solutionrelative:evaluacionesonline.api1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.domain\\entities\\calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|solutionrelative:evaluacionesonline.domain\\entities\\calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A2B528A-E374-41D7-83C1-F67082DE9E09}|EvaluacionesOnline.Web1\\EvaluacionesOnline.Web.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.web1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A2B528A-E374-41D7-83C1-F67082DE9E09}|EvaluacionesOnline.Web1\\EvaluacionesOnline.Web.csproj|solutionrelative:evaluacionesonline.web1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.domain\\entities\\respuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|solutionrelative:evaluacionesonline.domain\\entities\\respuesta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.domain\\entities\\evaluacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|solutionrelative:evaluacionesonline.domain\\entities\\evaluacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B7B4BF-2B67-4B44-B810-37B1F4779783}|EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.infrastructure\\data\\evaluacionesonlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B7B4BF-2B67-4B44-B810-37B1F4779783}|EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj|solutionrelative:evaluacionesonline.infrastructure\\data\\evaluacionesonlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.api1\\controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|solutionrelative:evaluacionesonline.api1\\controllers\\evaluacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B7B4BF-2B67-4B44-B810-37B1F4779783}|EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.infrastructure\\repositories\\evaluacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B7B4BF-2B67-4B44-B810-37B1F4779783}|EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj|solutionrelative:evaluacionesonline.infrastructure\\repositories\\evaluacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B7B4BF-2B67-4B44-B810-37B1F4779783}|EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.infrastructure\\repositories\\ievaluacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B7B4BF-2B67-4B44-B810-37B1F4779783}|EvaluacionesOnline.Infrastructure\\EvaluacionesOnline.Infrastructure.csproj|solutionrelative:evaluacionesonline.infrastructure\\repositories\\ievaluacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.api1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|solutionrelative:evaluacionesonline.api1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.api1\\data\\evaluacionesonlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|solutionrelative:evaluacionesonline.api1\\data\\evaluacionesonlinedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.domain\\entities\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|solutionrelative:evaluacionesonline.domain\\entities\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.domain\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA63C43C-2419-4654-AADB-B8EEC8B2F28F}|EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj|solutionrelative:evaluacionesonline.domain\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|c:\\users\\delia\\onedrive\\documentos\\github\\sistema-de-gesti-n-de-evaluaciones-acad-micas\\evaluacionesonline.api1\\evaluacionesonline.api1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}|EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj|solutionrelative:evaluacionesonline.api1\\evaluacionesonline.api1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,16 +78,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EvaluacionesOnline.API1\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-28T02:09:56.515Z",
+              "DocumentIndex": 3,
+              "Title": "Respuesta.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Respuesta.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Domain\\Entities\\Respuesta.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Respuesta.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Domain\\Entities\\Respuesta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:00:22.712Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\appsettings.json",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\appsettings.json",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\appsettings.json",
+              "RelativeToolTip": "EvaluacionesOnline.API1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T03:22:46.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EvaluacionesOnlineDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\Data\\EvaluacionesOnlineDbContext.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Infrastructure\\Data\\EvaluacionesOnlineDbContext.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\Data\\EvaluacionesOnlineDbContext.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Infrastructure\\Data\\EvaluacionesOnlineDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:31:20.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Program.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\Program.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Program.cs",
+              "RelativeToolTip": "EvaluacionesOnline.API1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:52:56.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EvaluacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Controllers\\EvaluacionesController.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\Controllers\\EvaluacionesController.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Controllers\\EvaluacionesController.cs",
+              "RelativeToolTip": "EvaluacionesOnline.API1\\Controllers\\EvaluacionesController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:00:00.553Z"
             },
             {
               "$type": "Document",
@@ -55,21 +148,105 @@
               "RelativeToolTip": "EvaluacionesOnline.Web1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T02:06:21.354Z",
+              "WhenOpened": "2024-11-06T15:54:37.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Program.cs",
-              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\Program.cs",
-              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Program.cs",
-              "RelativeToolTip": "EvaluacionesOnline.API1\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Calificacion.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Calificacion.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Domain\\Entities\\Calificacion.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Calificacion.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Domain\\Entities\\Calificacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T01:51:41.404Z",
+              "WhenOpened": "2024-11-06T16:00:05.321Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EvaluacionesOnlineDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Data\\EvaluacionesOnlineDbContext.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\Data\\EvaluacionesOnlineDbContext.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\Data\\EvaluacionesOnlineDbContext.cs",
+              "RelativeToolTip": "EvaluacionesOnline.API1\\Data\\EvaluacionesOnlineDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:33:48.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Evaluacion.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Evaluacion.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Domain\\Entities\\Evaluacion.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Evaluacion.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Domain\\Entities\\Evaluacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:00:15.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEvaluacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\Repositories\\IEvaluacionRepository.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Infrastructure\\Repositories\\IEvaluacionRepository.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\Repositories\\IEvaluacionRepository.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Infrastructure\\Repositories\\IEvaluacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:24:05.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EvaluacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\Repositories\\EvaluacionRepository.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Infrastructure\\Repositories\\EvaluacionRepository.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Infrastructure\\Repositories\\EvaluacionRepository.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Infrastructure\\Repositories\\EvaluacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T03:24:10.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Profesor.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Domain\\Entities\\Profesor.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Profesor.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Domain\\Entities\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:00:20.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Estudiante.cs",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.Domain\\Entities\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\Entities\\Estudiante.cs",
+              "RelativeToolTip": "EvaluacionesOnline.Domain\\Entities\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:00:12.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EvaluacionesOnline.API1.csproj",
+              "DocumentMoniker": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
+              "RelativeDocumentMoniker": "EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
+              "ToolTip": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
+              "RelativeToolTip": "EvaluacionesOnline.API1\\EvaluacionesOnline.API1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-06T15:52:53.212Z"
             }
           ]
         }
