@@ -18,3 +18,6 @@
 /.vs/EvaluacionesOnline/FileContentIndex
 .vs/EvaluacionesOnline/FileContentIndex/41412ccc-b3d9-41d4-885c-19c330c18473.vsidx
 *.vsidx
+EvaluacionesOnline.Infrastructure/Repositories/EvaluacionRepository.cs
+EvaluacionesOnline.Infrastructure/Repositories/EvaluacionRepository.cs
+EvaluacionesOnline.Infrastructure/Repositories/IEvaluacionRepository.cs
