@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using EvaluacionesOnline.Domain.Entities;
+using EvaluacionesOnline.Infrastructure.Data;
 
 namespace EvaluacionesOnline.Infrastructure.Data
 {

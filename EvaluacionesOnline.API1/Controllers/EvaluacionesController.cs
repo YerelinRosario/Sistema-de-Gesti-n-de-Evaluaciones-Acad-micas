@@ -1,5 +1,5 @@
 ﻿using EvaluacionesOnline.Domain.Entities;
-using EvaluacionesOnline.Infrastructure.Repositories;
+using EvaluacionesOnline.Infrastructure.Repositories.EvaluacionR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EvaluacionesOnline.API1.Controllers
