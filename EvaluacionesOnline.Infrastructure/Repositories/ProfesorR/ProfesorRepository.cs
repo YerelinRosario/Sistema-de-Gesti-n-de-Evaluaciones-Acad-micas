@@ -25,6 +25,7 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.ProfesorR
             return await _context.Profesores.FindAsync(id);
         }
 
+
         public async Task AddAsync(Profesor profesor)
         {
             await _context.Profesores.AddAsync(profesor);
@@ -33,8 +34,12 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.ProfesorR
 
         public async Task UpdateAsync(Profesor profesor)
         {
-            _context.Profesores.Update(profesor);
-            await _context.SaveChangesAsync();
+            var existingProfesor = await _context.Profesores.FindAsync(profesor.Id);
+            if (existingProfesor != null)
+            {
+                _context.Entry(existingProfesor).CurrentValues.SetValues(profesor);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task DeleteAsync(int id)

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EvaluacionesOnline.API1\EvaluacionesOnline.API1.csproj" />
     <ProjectReference Include="..\EvaluacionesOnline.Domain\EvaluacionesOnline.Domain.csproj" />
     <ProjectReference Include="..\EvaluacionesOnline.Infrastructure\EvaluacionesOnline.Infrastructure.csproj" />
   </ItemGroup>

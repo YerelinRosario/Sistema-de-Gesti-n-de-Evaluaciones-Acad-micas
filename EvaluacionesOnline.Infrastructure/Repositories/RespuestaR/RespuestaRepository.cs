@@ -20,7 +20,7 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.RespuestaR
             return await _context.Respuestas.ToListAsync();
         }
 
-        public async Task<Respuesta> GetByIdAsync(int id)
+        public async Task<Respuesta?> GetByIdAsync(int id)
         {
             return await _context.Respuestas.FindAsync(id);
         }

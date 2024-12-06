@@ -20,10 +20,12 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.EstudianteR
             return await _context.Estudiantes.ToListAsync();
         }
 
-        public async Task<Estudiante> GetByIdAsync(int id)
+        public async Task<Estudiante?> GetByIdAsync(int id)
         {
             return await _context.Estudiantes.FindAsync(id);
         }
+
+
 
         public async Task AddAsync(Estudiante estudiante)
         {
@@ -33,8 +35,16 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.EstudianteR
 
         public async Task UpdateAsync(Estudiante estudiante)
         {
-            _context.Estudiantes.Update(estudiante);
-            await _context.SaveChangesAsync();
+            var existingEstudiante = await _context.Estudiantes.FindAsync(estudiante.Id);
+            if (existingEstudiante != null)
+            {
+                _context.Entry(existingEstudiante).CurrentValues.SetValues(estudiante);
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                throw new Exception($"Estudiante con ID {estudiante.Id} no encontrado.");
+            }
         }
 
         public async Task DeleteAsync(int id)
@@ -44,6 +54,10 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.EstudianteR
             {
                 _context.Estudiantes.Remove(estudiante);
                 await _context.SaveChangesAsync();
+            }
+            else
+            {
+                throw new Exception($"Estudiante con ID {id} no encontrado.");
             }
         }
     }
