@@ -1,6 +1,7 @@
 ﻿using EvaluacionesOnline.Application.Contract;
 using EvaluacionesOnline.Application.Core;
 using EvaluacionesOnline.Application.Dtos;
+using EvaluacionesOnline.Application.Exceptions;
 using EvaluacionesOnline.Domain.Entities;
 using EvaluacionesOnline.Infrastructure.Repositories.EvaluacionR;
 
@@ -33,7 +34,7 @@ namespace EvaluacionesOnline.Application.Services
             var evaluacion = await _repository.GetByIdAsync(id);
             if (evaluacion == null)
             {
-                return null; // Retorna nulo si no se encuentra la evaluación
+                throw new EvaluacionNotFoundException(id);
             }
 
             return new EvaluacionDto

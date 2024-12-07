@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvaluacionesOnline.Application.Core
 {
@@ -11,20 +7,13 @@ namespace EvaluacionesOnline.Application.Core
         // Métodos comunes o propiedades para todos los servicios
         protected ServiceResult CreateSuccessResult(string message = "Operation succeeded.")
         {
-            return new ServiceResult
-            {
-                Success = true,
-                Message = message
-            };
+            return ServiceResult.Success(message); // Llama al método estático de ServiceResult
         }
 
         protected ServiceResult CreateFailureResult(string message)
         {
-            return new ServiceResult
-            {
-                Success = false,
-                Message = message
-            };
+            return ServiceResult.Failure(message); // Llama al método estático de ServiceResult
         }
     }
 }
+

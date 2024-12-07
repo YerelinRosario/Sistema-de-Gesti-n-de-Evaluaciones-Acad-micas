@@ -1,6 +1,7 @@
 ﻿using EvaluacionesOnline.Application.Contract;
 using EvaluacionesOnline.Application.Core;
 using EvaluacionesOnline.Application.Dtos;
+using EvaluacionesOnline.Application.Exceptions;
 using EvaluacionesOnline.Domain.Entities;
 using EvaluacionesOnline.Infrastructure.Repositories.ProfesorR;
 using System;
@@ -37,7 +38,7 @@ namespace EvaluacionesOnline.Application.Services
             var profesor = await _repository.GetByIdAsync(id);
             if (profesor == null)
             {
-                return null; // Retorna null si no se encuentra.
+                throw new ProfesorNotFoundException(id);
             }
 
             return new ProfesorDto

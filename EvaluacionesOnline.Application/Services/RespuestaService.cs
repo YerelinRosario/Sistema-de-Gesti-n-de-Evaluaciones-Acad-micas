@@ -1,6 +1,7 @@
 ﻿using EvaluacionesOnline.Application.Contract;
 using EvaluacionesOnline.Application.Core;
 using EvaluacionesOnline.Application.Dtos;
+using EvaluacionesOnline.Application.Exceptions;
 using EvaluacionesOnline.Domain.Entities;
 using EvaluacionesOnline.Infrastructure.Repositories.RespuestaR;
 
@@ -30,7 +31,9 @@ namespace EvaluacionesOnline.Application.Services
         public async Task<RespuestaDto?> GetByIdAsync(int id)
         {
             var respuesta = await _repository.GetByIdAsync(id);
-            if (respuesta == null) return null;
+            if (respuesta == null)
+
+                throw new RespuestaNotFoundException(id);
 
             return new RespuestaDto
             {
