@@ -1,0 +1,21 @@
+﻿@page
+@model EvaluacionesOnline.Web.Pages.Profesores.DetailsModel
+@{
+    ViewData["Title"] = "Detalles del Profesor";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>Profesor</h4>
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Profesor.Nombre</dd>
+        <dt class="col-sm-2">Apellido</dt>
+        <dd class="col-sm-10">@Model.Profesor.Apellido</dd>
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Profesor.Email</dd>
+    </dl>
+</div>
+
+<a asp-page="Index" class="btn btn-secondary">Volver</a>

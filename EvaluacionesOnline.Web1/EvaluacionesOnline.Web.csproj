@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EvaluacionesOnline.API1\EvaluacionesOnline.API1.csproj" />
     <ProjectReference Include="..\EvaluacionesOnline.Domain\EvaluacionesOnline.Domain.csproj" />
     <ProjectReference Include="..\EvaluacionesOnline.Infrastructure\EvaluacionesOnline.Infrastructure.csproj" />

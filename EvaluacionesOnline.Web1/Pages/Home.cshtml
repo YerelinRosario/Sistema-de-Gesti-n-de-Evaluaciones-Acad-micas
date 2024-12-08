@@ -1,0 +1,74 @@
+﻿@page
+@model HomeModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mt-4">
+<h1 class="header-title" style="font-weight: bold;">¡Bienvenido a Examiner360!</h1>
+    <p class="lead">Gestiona fácilmente tus evaluaciones, estudiantes, profesores y reportes.</p>
+</div>
+
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-clipboard2-fill text-primary" style="font-size: 2rem;"></i>
+                    <h5 class="card-title mt-2">Evaluaciones</h5>
+                    <p class="card-text">Gestiona y revisa las evaluaciones.</p>
+                    <a href="/Evaluaciones" class="btn btn-primary">Ir a Evaluaciones</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-person-fill text-success" style="font-size: 2rem;"></i>
+                    <h5 class="card-title mt-2">Profesores</h5>
+                    <p class="card-text">Consulta y administra los datos de los profesores.</p>
+                    <a href="/Profesores" class="btn btn-success">Ir a Profesores</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-mortarboard-fill text-warning" style="font-size: 2rem;"></i>
+                    <h5 class="card-title mt-2">Estudiantes</h5>
+                    <p class="card-text">Visualiza y administra información estudiantil.</p>
+                    <a href="/Estudiantes" class="btn btn-warning">Ir a Estudiantes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-chat-dots-fill text-danger" style="font-size: 2rem;"></i>
+                    <h5 class="card-title mt-2">Respuestas</h5>
+                    <p class="card-text">Gestiona las respuestas de los estudiantes.</p>
+                    <a href="/Respuestas" class="btn btn-danger">Ir a Respuestas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center mt-4">
+        <div class="col-md-12">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <i class="bi bi-graph-up-arrow text-info" style="font-size: 2rem;"></i>
+                    <h5 class="card-title mt-2">Reportes</h5>
+                    <p class="card-text">Consulta reportes detallados de eficiencia de estudiantes y profesores.</p>
+                    <a href="/Reportes" class="btn btn-info">Ir a Reportes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center mt-5">
+    <p>© 2024 - EvaluacionesOnline - <a href="/Privacy">Privacy</a></p>
+</footer>
+
+
+

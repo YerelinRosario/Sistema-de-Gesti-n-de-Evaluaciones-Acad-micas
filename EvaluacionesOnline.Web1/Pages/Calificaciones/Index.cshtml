@@ -1,0 +1,37 @@
+﻿@page "/Calificaciones/Index"
+@model EvaluacionesOnline.Web.Pages.Calificaciones.IndexModel
+@{
+    ViewData["Title"] = "Lista de Calificaciones";
+}
+
+<h1>Lista de Calificaciones</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Agregar Calificación</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Estudiante</th>
+            <th>Evaluación</th>
+            <th>Nota</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var calificacion in Model.Calificaciones)
+        {
+            <tr>
+                <td>@calificacion.EstudianteNombre</td>
+                <td>@calificacion.EvaluacionTitulo</td>
+                <td>@calificacion.Nota</td>
+                <td>
+                    <a asp-page="Details" asp-route-id="@calificacion.Id" class="btn btn-info btn-sm">Detalles</a>
+                    <a asp-page="Edit" asp-route-id="@calificacion.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-page="Delete" asp-route-id="@calificacion.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

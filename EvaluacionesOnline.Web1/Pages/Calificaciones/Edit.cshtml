@@ -1,0 +1,46 @@
+﻿@page "{id:int}"
+@model EvaluacionesOnline.Web.Pages.Calificaciones.EditModel
+@{
+    ViewData["Title"] = "Editar Calificación";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="EstudianteId">Estudiante</label>
+        <select id="EstudianteId" asp-for="Calificacion.EstudianteId" class="form-control">
+            <option value="">Seleccione un estudiante</option>
+            @foreach (var estudiante in Model.Estudiantes)
+            {
+                <option value="@estudiante.Id" selected="@(Model.Calificacion.EstudianteId == estudiante.Id)">
+                    @estudiante.Nombre @estudiante.Apellido
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="EvaluacionId">Evaluación</label>
+        <select id="EvaluacionId" asp-for="Calificacion.EvaluacionId" class="form-control">
+            <option value="">Seleccione una evaluación</option>
+            @foreach (var evaluacion in Model.Evaluaciones)
+            {
+                <option value="@evaluacion.Id" selected="@(Model.Calificacion.EvaluacionId == evaluacion.Id)">
+                    @evaluacion.Titulo
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Nota">Nota</label>
+        <input type="number" class="form-control" id="Nota" asp-for="Calificacion.Nota" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+
+

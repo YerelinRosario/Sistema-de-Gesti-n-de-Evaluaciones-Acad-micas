@@ -1,0 +1,32 @@
+﻿@page "{id:int}"
+@model EvaluacionesOnline.Web.Pages.Estudiantes.EditModel
+@{
+    ViewData["Title"] = "Editar Estudiante";
+}
+
+<h1>Editar Estudiante</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input asp-for="Estudiante.Nombre" class="form-control" />
+        <span asp-validation-for="Estudiante.Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Apellido">Apellido</label>
+        <input asp-for="Estudiante.Apellido" class="form-control" />
+        <span asp-validation-for="Estudiante.Apellido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input asp-for="Estudiante.Email" class="form-control" />
+        <span asp-validation-for="Estudiante.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Contraseña">Contraseña</label>
+        <input asp-for="Estudiante.Contraseña" class="form-control" type="password" />
+        <span asp-validation-for="Estudiante.Contraseña" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>

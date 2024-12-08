@@ -1,0 +1,47 @@
+﻿@page "/Estudiantes/Index"
+@model EvaluacionesOnline.Web.Pages.Estudiantes.IndexModel
+@{
+    ViewData["Title"] = "Lista de Estudiantes";
+}
+
+<h1>Lista de Estudiantes</h1>
+
+<p>
+    <a asp-page="/Estudiantes/Create" class="btn btn-primary">Agregar Estudiante</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Estudiantes != null && Model.Estudiantes.Any())
+        {
+            foreach (var estudiante in Model.Estudiantes)
+            {
+                <tr>
+                    <td>@estudiante.Nombre</td>
+                    <td>@estudiante.Apellido</td>
+                    <td>@estudiante.Email</td>
+                    <td>
+                        <a asp-page="/Estudiantes/Details" asp-route-id="@estudiante.Id" class="btn btn-info btn-sm">Detalles</a>
+                        <a asp-page="/Estudiantes/Edit" asp-route-id="@estudiante.Id" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="/Estudiantes/Delete" asp-route-id="@estudiante.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center">No se encontraron estudiantes.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

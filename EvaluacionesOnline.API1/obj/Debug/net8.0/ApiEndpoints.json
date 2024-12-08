@@ -1,21 +1,161 @@
 [
   {
-    "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_1",
-    "RelativePath": "",
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.CalificacionesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Calificaciones",
     "HttpMethod": "GET",
-    "IsController": false,
+    "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.CalificacionesController",
+    "Method": "Create",
+    "RelativePath": "api/Calificaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain"
-        ],
-        "StatusCode": 200
+        "Name": "calificacionViewModel",
+        "Type": "EvaluacionesOnline.API1.Models.CalificacionViewModel",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.CalificacionesController",
+    "Method": "GetById",
+    "RelativePath": "api/Calificaciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.CalificacionesController",
+    "Method": "Update",
+    "RelativePath": "api/Calificaciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "calificacion",
+        "Type": "EvaluacionesOnline.Domain.Entities.Calificacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.CalificacionesController",
+    "Method": "Delete",
+    "RelativePath": "api/Calificaciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EstudiantesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EstudiantesController",
+    "Method": "Create",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudianteDto",
+        "Type": "EvaluacionesOnline.Application.Dtos.EstudianteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EstudiantesController",
+    "Method": "GetById",
+    "RelativePath": "api/Estudiantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EstudiantesController",
+    "Method": "Update",
+    "RelativePath": "api/Estudiantes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estudiante",
+        "Type": "EvaluacionesOnline.Domain.Entities.Estudiante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.EstudiantesController",
+    "Method": "Delete",
+    "RelativePath": "api/Estudiantes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
@@ -84,6 +224,189 @@
     "ContainingType": "EvaluacionesOnline.API1.Controllers.EvaluacionesController",
     "Method": "Delete",
     "RelativePath": "api/Evaluaciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.ProfesoresController",
+    "Method": "GetAll",
+    "RelativePath": "api/Profesores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.ProfesoresController",
+    "Method": "Create",
+    "RelativePath": "api/Profesores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Apellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Contrase\u00F1a",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Evaluaciones",
+        "Type": "System.Collections.Generic.ICollection\u00601[[EvaluacionesOnline.Domain.Entities.Evaluacion, EvaluacionesOnline.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.ProfesoresController",
+    "Method": "GetById",
+    "RelativePath": "api/Profesores/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.ProfesoresController",
+    "Method": "Update",
+    "RelativePath": "api/Profesores/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "profesor",
+        "Type": "EvaluacionesOnline.Domain.Entities.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.ProfesoresController",
+    "Method": "Delete",
+    "RelativePath": "api/Profesores/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.RespuestasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Respuestas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.RespuestasController",
+    "Method": "Create",
+    "RelativePath": "api/Respuestas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "respuesta",
+        "Type": "EvaluacionesOnline.Domain.Entities.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.RespuestasController",
+    "Method": "GetById",
+    "RelativePath": "api/Respuestas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.RespuestasController",
+    "Method": "Update",
+    "RelativePath": "api/Respuestas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "respuesta",
+        "Type": "EvaluacionesOnline.Domain.Entities.Respuesta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EvaluacionesOnline.API1.Controllers.RespuestasController",
+    "Method": "Delete",
+    "RelativePath": "api/Respuestas/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

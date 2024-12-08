@@ -1,0 +1,31 @@
+﻿@page "{id:int}"
+@model EvaluacionesOnline.Web.Pages.Evaluaciones.DeleteModel
+@{
+    ViewData["Title"] = "Eliminar Evaluación";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>¿Estás seguro de que deseas eliminar esta evaluación?</h4>
+
+<div class="form-group">
+    <label><strong>Título:</strong></label>
+    <p>@Model.Evaluacion.Titulo</p>
+</div>
+<div class="form-group">
+    <label><strong>Descripción:</strong></label>
+    <p>@Model.Evaluacion.Descripcion</p>
+</div>
+<div class="form-group">
+    <label><strong>Fecha de Creación:</strong></label>
+    <p>@Model.Evaluacion.FechaCreacion</p>
+</div>
+<div class="form-group">
+    <label><strong>Profesor:</strong></label>
+    <p>@Model.Evaluacion.ProfesorNombre</p>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>

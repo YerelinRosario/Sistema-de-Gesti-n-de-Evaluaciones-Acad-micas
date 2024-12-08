@@ -1,0 +1,37 @@
+﻿@page "/Respuestas/Index"
+@model EvaluacionesOnline.Web.Pages.Respuestas.IndexModel
+@{
+    ViewData["Title"] = "Lista de Respuestas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Texto Respuesta</th>
+            <th>Estudiante</th>
+            <th>Evaluación</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var respuesta in Model.Respuestas)
+        {
+            <tr>
+                <td>@respuesta.Id</td>
+                <td>@respuesta.TextoRespuesta</td>
+                <td>@respuesta.EstudianteNombre</td>
+                <td>@respuesta.EvaluacionTitulo</td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@respuesta.Id" class="btn btn-info btn-sm">Detalles</a>
+                    <a asp-page="./Edit" asp-route-id="@respuesta.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-page="./Delete" asp-route-id="@respuesta.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Crear Nueva Respuesta</a>

@@ -1,0 +1,24 @@
+﻿@page
+@model EvaluacionesOnline.Web.Pages.Calificaciones.CreateModel
+@{
+    ViewData["Title"] = "Crear Calificación";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="EstudianteId">ID del Estudiante</label>
+        <input type="number" class="form-control" id="EstudianteId" asp-for="Calificacion.EstudianteId" />
+    </div>
+    <div class="form-group">
+        <label for="EvaluacionId">ID de la Evaluación</label>
+        <input type="number" class="form-control" id="EvaluacionId" asp-for="Calificacion.EvaluacionId" />
+    </div>
+    <div class="form-group">
+        <label for="Nota">Nota</label>
+        <input type="number" class="form-control" id="Nota" asp-for="Calificacion.Nota" />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>

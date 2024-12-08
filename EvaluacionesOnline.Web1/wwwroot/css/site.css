@@ -1,22 +1,59 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+.menu-lateral {
+    background-color: #212529;
+    color: white;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+    width: 200px;
+}
+
+    .menu-lateral a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin: 10px 0;
+    }
+
+        .menu-lateral a:hover {
+            background-color: #495057;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+.contenido {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.bienvenida {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
 }

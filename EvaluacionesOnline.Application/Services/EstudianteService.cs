@@ -1,6 +1,7 @@
 ﻿using EvaluacionesOnline.Application.Contract;
 using EvaluacionesOnline.Application.Core;
 using EvaluacionesOnline.Application.Dtos;
+using EvaluacionesOnline.Application.Exceptions;
 using EvaluacionesOnline.Domain.Entities;
 using EvaluacionesOnline.Infrastructure.Repositories.EstudianteR;
 using System;
@@ -37,7 +38,7 @@ namespace EvaluacionesOnline.Application.Services
             var estudiante = await _repository.GetByIdAsync(id);
             if (estudiante == null)
             {
-                return null; // Si no existe, retornar null para manejarlo en el controlador.
+                throw new EstudianteNotFoundException(id);
             }
 
             return new EstudianteDto

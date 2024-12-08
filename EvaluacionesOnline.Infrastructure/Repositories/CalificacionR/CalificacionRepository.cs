@@ -17,12 +17,18 @@ namespace EvaluacionesOnline.Infrastructure.Repositories.CalificacionR
 
         public async Task<IEnumerable<Calificacion>> GetAllAsync()
         {
-            return await _context.Calificaciones.ToListAsync();
+            return await _context.Calificaciones
+                .Include(c => c.Estudiante) // Incluye los datos del Estudiante relacionado
+                .Include(c => c.Evaluacion) // Incluye los datos de la Evaluacion relacionada
+                .ToListAsync();
         }
 
-        public async Task<Calificacion> GetByIdAsync(int id)
+        public async Task<Calificacion?> GetByIdAsync(int id)
         {
-            return await _context.Calificaciones.FindAsync(id);
+            return await _context.Calificaciones
+                .Include(c => c.Estudiante) // Incluye el Estudiante relacionado
+                .Include(c => c.Evaluacion) // Incluye la Evaluacion relacionada
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task AddAsync(Calificacion calificacion)

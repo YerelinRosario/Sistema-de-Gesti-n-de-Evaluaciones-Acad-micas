@@ -9,9 +9,9 @@ namespace EvaluacionesOnline.Application.Dtos
     public class EstudianteDto
     {
         public int Id { get; set; }
-        public required string Nombre { get; set; }
-        public required string Apellido { get; set; }
-        public string? Email { get; set; }
+        public string Nombre { get; set; } = string.Empty; // Valor predeterminado
+        public string Apellido { get; set; } = string.Empty; // Valor predeterminado
+        public string Email { get; set; } = string.Empty;
         public string Contraseña { get; set; } = string.Empty;
     }
 

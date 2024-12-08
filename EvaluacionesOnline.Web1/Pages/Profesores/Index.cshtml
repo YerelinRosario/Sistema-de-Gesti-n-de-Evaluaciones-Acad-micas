@@ -1,0 +1,40 @@
+﻿@page "/Profesores/Index"
+@model EvaluacionesOnline.Web.Pages.Profesores.IndexModel
+@{
+    ViewData["Title"] = "Lista de Profesores";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Agregar Profesor</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Profesores != null)
+        {
+            foreach (var profesor in Model.Profesores)
+            {
+                <tr>
+                    <td>@profesor.Nombre</td>
+                    <td>@profesor.Apellido</td>
+                    <td>@profesor.Email</td>
+                    <td>
+                        <a asp-page="Details" asp-route-id="@profesor.Id" class="btn btn-info btn-sm">Detalles</a>
+                        <a asp-page="Edit" asp-route-id="@profesor.Id" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="Delete" asp-route-id="@profesor.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

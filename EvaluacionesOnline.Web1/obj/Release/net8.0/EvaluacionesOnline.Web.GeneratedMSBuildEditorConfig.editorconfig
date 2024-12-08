@@ -18,8 +18,68 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.Web1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Calificaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsaWZpY2FjaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Calificaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsaWZpY2FjaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Calificaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsaWZpY2FjaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Calificaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsaWZpY2FjaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Calificaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsaWZpY2FjaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Estudiantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Estudiantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Estudiantes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Estudiantes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Estudiantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXN0dWRpYW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Evaluaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZhbHVhY2lvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Evaluaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZhbHVhY2lvbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Evaluaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZhbHVhY2lvbmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Evaluaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZhbHVhY2lvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Evaluaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZhbHVhY2lvbmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Index.cshtml]
@@ -28,6 +88,46 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Profesores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmVzb3Jlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Profesores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmVzb3Jlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Profesores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmVzb3Jlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Profesores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmVzb3Jlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Profesores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmVzb3Jlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Respuestas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzcHVlc3Rhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Respuestas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzcHVlc3Rhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Respuestas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzcHVlc3Rhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Respuestas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzcHVlc3Rhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Respuestas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzcHVlc3Rhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/delia/OneDrive/Documentos/GitHub/Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas/EvaluacionesOnline.Web1/Pages/Shared/_ValidationScriptsPartial.cshtml]

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -21,8 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EvaluacionesOnline.Application\EvaluacionesOnline.Application.csproj" />
     <ProjectReference Include="..\EvaluacionesOnline.Domain\EvaluacionesOnline.Domain.csproj" />
     <ProjectReference Include="..\EvaluacionesOnline.Infrastructure\EvaluacionesOnline.Infrastructure.csproj" />
   </ItemGroup>
+
 
 </Project>

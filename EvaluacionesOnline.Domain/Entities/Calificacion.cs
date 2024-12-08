@@ -10,13 +10,11 @@ namespace EvaluacionesOnline.Domain.Entities
     {
         public int Id { get; set; }  // Llave primaria
         public required int Nota { get; set; }  // Calificación obtenida
-        public required int EstudianteId { get; set; }  // Llave foránea para el estudiante
-        public required int EvaluacionId { get; set; }  // Llave foránea para la evaluación que fue calificada
+        public int EstudianteId { get; set; }
+        public Estudiante Estudiante { get; set; } // Propiedad de navegación
 
-        // Relación con el estudiante
-        public Estudiante Estudiante { get; set; }
+        public int EvaluacionId { get; set; }
+        public Evaluacion Evaluacion { get; set; } // Propiedad de navegación
 
-        // Relación con la evaluación
-        public Evaluacion Evaluacion { get; set; }
     }
 }

@@ -1,0 +1,27 @@
+﻿@page "{id:int}"
+@model EvaluacionesOnline.Web.Pages.Estudiantes.DetailsModel
+@{
+    ViewData["Title"] = "Detalles del Estudiante";
+}
+
+<h1>Detalles del Estudiante</h1>
+
+<table class="table">
+    <tr>
+        <th>Nombre</th>
+        <td>@Model.Estudiante.Nombre</td>
+    </tr>
+    <tr>
+        <th>Apellido</th>
+        <td>@Model.Estudiante.Apellido</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>@Model.Estudiante.Email</td>
+    </tr>
+</table>
+
+<a asp-page="Index" class="btn btn-secondary">Volver</a>
+<a asp-page="Edit" asp-route-id="@Model.Estudiante.Id" class="btn btn-primary">Editar</a>
+
+

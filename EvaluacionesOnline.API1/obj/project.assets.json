@@ -1615,6 +1615,21 @@
           }
         }
       },
+      "EvaluacionesOnline.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EvaluacionesOnline.Domain": "1.0.0",
+          "EvaluacionesOnline.Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/EvaluacionesOnline.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EvaluacionesOnline.Application.dll": {}
+        }
+      },
       "EvaluacionesOnline.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4558,6 +4573,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "EvaluacionesOnline.Application/1.0.0": {
+      "type": "project",
+      "path": "../EvaluacionesOnline.Application/EvaluacionesOnline.Application.csproj",
+      "msbuildProject": "../EvaluacionesOnline.Application/EvaluacionesOnline.Application.csproj"
+    },
     "EvaluacionesOnline.Domain/1.0.0": {
       "type": "project",
       "path": "../EvaluacionesOnline.Domain/EvaluacionesOnline.Domain.csproj",
@@ -4572,6 +4592,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "EvaluacionesOnline.Application >= 1.0.0",
       "EvaluacionesOnline.Domain >= 1.0.0",
       "EvaluacionesOnline.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
@@ -4607,13 +4628,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Application\\EvaluacionesOnline.Application.csproj": {
+              "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Application\\EvaluacionesOnline.Application.csproj"
+            },
             "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj": {
               "projectPath": "C:\\Users\\delia\\OneDrive\\Documentos\\GitHub\\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\\EvaluacionesOnline.Domain\\EvaluacionesOnline.Domain.csproj"
             },
@@ -4686,7 +4709,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -152,6 +152,8 @@ C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Aca
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.API1.runtimeconfig.json
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.API1.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.API1.pdb
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Humanizer.dll
@@ -181,9 +183,13 @@ C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Aca
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -262,8 +268,10 @@ C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Aca
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.Application.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.Domain.dll
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.Infrastructure.dll
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.Application.pdb
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.Domain.pdb
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\EvaluacionesOnline.Infrastructure.pdb
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.csproj.AssemblyReference.cache
@@ -271,6 +279,7 @@ C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Aca
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.AssemblyInfoInputs.cache
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.AssemblyInfo.cs
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.csproj.CoreCompileInputs.cache
+C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.RazorAssemblyInfo.cache
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.RazorAssemblyInfo.cs
@@ -291,8 +300,3 @@ C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Aca
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.pdb
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.genruntimeconfig.cache
 C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\ref\EvaluacionesOnline.API1.dll
-C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\delia\OneDrive\Documentos\GitHub\Sistema-de-Gesti-n-de-Evaluaciones-Acad-micas\EvaluacionesOnline.API1\obj\Debug\net8.0\EvaluacionesOnline.API1.MvcApplicationPartsAssemblyInfo.cs

@@ -20,8 +20,21 @@ namespace EvaluacionesOnline.Infrastructure.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Calificacion>()
+                .HasOne(c => c.Estudiante)
+                .WithMany()
+                .HasForeignKey(c => c.EstudianteId)
+                .HasPrincipalKey(e => e.Id); 
+
+            modelBuilder.Entity<Calificacion>()
+                .HasOne(c => c.Evaluacion)
+                .WithMany()
+                .HasForeignKey(c => c.EvaluacionId)
+                .HasPrincipalKey(e => e.Id);
+
+
             base.OnModelCreating(modelBuilder);
-            // Configurar relaciones y restricciones aquí
         }
+
     }
 }

@@ -1,0 +1,37 @@
+﻿@page "/Evaluaciones/Index"
+@model EvaluacionesOnline.Web.Pages.Evaluaciones.IndexModel
+@{
+    ViewData["Title"] = "Lista de Evaluaciones";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Fecha de Creación</th>
+            <th>Profesor</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var evaluacion in Model.Evaluaciones)
+        {
+            <tr>
+                <td>@evaluacion.Titulo</td>
+                <td>@evaluacion.Descripcion</td>
+                <td>@evaluacion.FechaCreacion.ToString("yyyy-MM-dd")</td>
+                <td>@evaluacion.ProfesorNombre</td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@evaluacion.Id" class="btn btn-info btn-sm">Detalles</a>
+                    <a asp-page="./Edit" asp-route-id="@evaluacion.Id" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-page="./Delete" asp-route-id="@evaluacion.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Crear Nueva Evaluación</a>

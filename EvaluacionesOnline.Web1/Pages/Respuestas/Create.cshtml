@@ -1,0 +1,24 @@
+﻿@page
+@model EvaluacionesOnline.Web.Pages.Respuestas.CreateModel
+@{
+    ViewData["Title"] = "Crear Respuesta";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="TextoRespuesta">Texto de la Respuesta</label>
+        <textarea id="TextoRespuesta" asp-for="Respuesta.TextoRespuesta" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="EstudianteId">Estudiante Id</label>
+        <input id="EstudianteId" asp-for="Respuesta.EstudianteId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="EvaluacionId">Evaluación Id</label>
+        <input id="EvaluacionId" asp-for="Respuesta.EvaluacionId" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,4 +1,5 @@
-﻿using EvaluacionesOnline.Domain.Entities;
+﻿using EvaluacionesOnline.API1.Models;
+using EvaluacionesOnline.Domain.Entities;
 using EvaluacionesOnline.Infrastructure.Repositories.CalificacionR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,11 +32,19 @@ namespace EvaluacionesOnline.API1.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Calificacion calificacion)
+        public async Task<IActionResult> Create(CalificacionViewModel calificacionViewModel)
         {
+            var calificacion = new Calificacion
+            {
+                Nota = calificacionViewModel.Nota,
+                EstudianteId = calificacionViewModel.EstudianteId,
+                EvaluacionId = calificacionViewModel.EvaluacionId
+            };
+
             await _calificacionRepository.AddAsync(calificacion);
             return CreatedAtAction(nameof(GetById), new { id = calificacion.Id }, calificacion);
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, Calificacion calificacion)
@@ -53,4 +62,3 @@ namespace EvaluacionesOnline.API1.Controllers
         }
     }
 }
-

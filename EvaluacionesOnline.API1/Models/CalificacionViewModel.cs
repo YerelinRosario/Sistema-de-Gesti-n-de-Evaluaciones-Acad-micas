@@ -7,9 +7,8 @@ namespace EvaluacionesOnline.API1.Models
     public class CalificacionViewModel
     {
         public int Id { get; set; }
-        public int EstudianteId { get; set; } // Relación con Estudiante
-        public int EvaluacionId { get; set; } // Relación con Evaluacion
-        public decimal Puntuacion { get; set; }
-        public string? Comentarios { get; set; }
+        public int Nota { get; set; }
+        public int EstudianteId { get; set; }
+        public int EvaluacionId { get; set; }
     }
 }

@@ -9,9 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluacionesOnline.Infrastr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluacionesOnline.Application", "EvaluacionesOnline.Application\EvaluacionesOnline.Application.csproj", "{9EA81E4C-E387-4F34-9D8E-6B0B2F3CDE13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluacionesOnline.API1", "EvaluacionesOnline.API1\EvaluacionesOnline.API1.csproj", "{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluacionesOnline.API1", "EvaluacionesOnline.API1\EvaluacionesOnline.API1.csproj", "{3F8BF539-E4B5-4E27-A7C2-1A23C2503401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluacionesOnline.Web", "EvaluacionesOnline.Web1\EvaluacionesOnline.Web.csproj", "{0A2B528A-E374-41D7-83C1-F67082DE9E09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluacionesOnline.Web", "EvaluacionesOnline.Web1\EvaluacionesOnline.Web.csproj", "{0A2B528A-E374-41D7-83C1-F67082DE9E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35502529-F086-4E54-8312-437D3C4816DC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

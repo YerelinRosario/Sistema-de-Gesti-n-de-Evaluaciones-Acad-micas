@@ -1,0 +1,26 @@
+﻿@page "{id:int}"
+@model EvaluacionesOnline.Web.Pages.Evaluaciones.DetailsModel
+@{
+    ViewData["Title"] = "Detalles de la Evaluación";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="form-group">
+    <label><strong>Título:</strong></label>
+    <p>@Model.Evaluacion.Titulo</p>
+</div>
+<div class="form-group">
+    <label><strong>Descripción:</strong></label>
+    <p>@Model.Evaluacion.Descripcion</p>
+</div>
+<div class="form-group">
+    <label><strong>Fecha de Creación:</strong></label>
+    <p>@Model.Evaluacion.FechaCreacion</p>
+</div>
+<div class="form-group">
+    <label><strong>Profesor:</strong></label>
+    <p>@Model.Evaluacion.ProfesorNombre</p>
+</div>
+
+<a asp-page="Index" class="btn btn-secondary">Volver</a>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EvaluacionesOnline.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5b8b65d7ab469622df1e606626aa88f8e4a934b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d2295c6d5b299ee892e0ee8dd22b880b89fe7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EvaluacionesOnline.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EvaluacionesOnline.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

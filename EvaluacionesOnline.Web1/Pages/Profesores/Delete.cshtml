@@ -1,0 +1,27 @@
+﻿@page
+@model EvaluacionesOnline.Web.Pages.Profesores.DeleteModel
+@{
+    ViewData["Title"] = "Eliminar Profesor";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>¿Estás seguro que deseas eliminar este profesor?</h4>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Profesor.Nombre</dd>
+
+        <dt class="col-sm-2">Apellido</dt>
+        <dd class="col-sm-10">@Model.Profesor.Apellido</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Profesor.Email</dd>
+    </dl>
+</div>
+
+<form method="post">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+</form>
